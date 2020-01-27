@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="160.320895522388" y="367.0149253731343">EngineTypes</node>
+    <node x="673.0" y="103.0">Missiles</node>
+    <node x="653.6641791044776" y="373.5074626865671">VehicleEngine</node>
+    <node x="495.0" y="0.0">Weapon</node>
+    <node x="0.0" y="0.0">SpaceShip</node>
+    <node x="-2.1641791044776255" y="366.544776119403">WeaponTypes</node>
+    <node x="523.6641791044776" y="373.5074626865671">IonEngine</node>
+    <node x="513.1641791044776" y="228.50746268656712">Engine</node>
+    <node x="-177.35074626865674" y="91.69402985074623">Player</node>
+    <node x="495.0" y="103.0">Kinetic</node>
+    <node x="-178.4179104477612" y="187.38805970149252">SpaceShipSize</node>
+    <node x="364.6641791044776" y="373.5074626865671">NuclearEngine</node>
+    <node x="317.0" y="103.0">Laser</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="VehicleEngine" target="Engine">
+      <point x="0.0" y="-26.5" />
+      <point x="723.1641791044776" y="348.5074626865671" />
+      <point x="622.3308457711443" y="348.5074626865671" />
+      <point x="43.66666666666663" y="47.5" />
+    </edge>
+    <edge source="Kinetic" target="Weapon">
+      <point x="0.0" y="-47.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="IonEngine" target="Engine">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="NuclearEngine" target="Engine">
+      <point x="0.0" y="-26.5" />
+      <point x="434.1641791044776" y="348.5074626865671" />
+      <point x="534.9975124378109" y="348.5074626865671" />
+      <point x="-43.666666666666686" y="47.5" />
+    </edge>
+    <edge source="Missiles" target="Weapon">
+      <point x="0.0" y="-47.5" />
+      <point x="752.0" y="78.0" />
+      <point x="626.6666666666666" y="78.0" />
+      <point x="52.66666666666663" y="26.5" />
+    </edge>
+    <edge source="Laser" target="Weapon">
+      <point x="0.0" y="-47.5" />
+      <point x="396.0" y="78.0" />
+      <point x="521.3333333333334" y="78.0" />
+      <point x="-52.66666666666663" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9241379310344827" x="329.5" y="342.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
