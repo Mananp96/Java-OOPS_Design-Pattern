@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/OOPS_Design.iml" filepath="$PROJECT_DIR$/.idea/OOPS_Design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpaceShip_GameOOPS.iml" filepath="$PROJECT_DIR$/SpaceShip_GameOOPS.iml" />
     </modules>
   </component>
 </project>
