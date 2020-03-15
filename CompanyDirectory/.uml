@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-256.8888888888889" y="335.35185185185185">DriverClass</node>
+    <node x="379.0" y="147.0">Salary</node>
+    <node x="-329.69444444444446" y="1.6851851851852189">Company</node>
+    <node x="0.0" y="297.0">Tech</node>
+    <node x="455.5" y="0.0">Payment</node>
+    <node x="174.0" y="297.0">Administrator</node>
+    <node x="73.0" y="0.0">Employee</node>
+    <node x="532.0" y="147.0">PerHour</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Salary" target="Payment">
+      <point x="0.0" y="-48.5" />
+      <point x="445.5" y="122.0" />
+      <point x="488.75" y="122.0" />
+      <point x="-33.25" y="48.5" />
+    </edge>
+    <edge source="Tech" target="Employee">
+      <point x="0.0" y="-69.5" />
+      <point x="77.0" y="272.0" />
+      <point x="119.25" y="272.0" />
+      <point x="-46.25" y="123.5" />
+    </edge>
+    <edge source="Administrator" target="Employee">
+      <point x="0.0" y="-69.5" />
+      <point x="254.0" y="272.0" />
+      <point x="211.75" y="272.0" />
+      <point x="46.25" y="123.5" />
+    </edge>
+    <edge source="PerHour" target="Payment">
+      <point x="0.0" y="-48.5" />
+      <point x="598.5" y="122.0" />
+      <point x="555.25" y="122.0" />
+      <point x="33.25" y="48.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7552447552447552" x="264.0" y="266.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>Open Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
